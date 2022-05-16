@@ -1,0 +1,5 @@
+.el-wrapp {
+    /* margin-top: 50px; */
+    height: 600px;
+    overflow-y: scroll;
+}
