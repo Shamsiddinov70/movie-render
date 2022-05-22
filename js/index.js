@@ -10,7 +10,7 @@ function render(array, length) {
         var tag = `
         <div class="card mb-4" style="width: 18rem;">
                 <div>
-                <iframe width="100%" height="220" src="https://www.youtube.com/embed/${link[1]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="220" src="https://www.youtube.com/embed/${link[1]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
                 </div>
                 <div class="card-body">
                     <h5 class="text-truncate card-title">${array[i].title}</h5>
