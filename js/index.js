@@ -2,8 +2,8 @@
 var elWrapper = elFind('.el-wrapp');
 
 
-function render(array, length) {
-    for (var i = 0; i < length; i++) {
+function render(array) {
+    for (var i = 0; i < array.length; i++) {
 
         var link = array[i].trailer.split("=");
 
@@ -36,4 +36,4 @@ function render(array, length) {
     }
 }
 
-render(movies, 32)
+render(movies)
